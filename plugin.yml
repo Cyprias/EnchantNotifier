@@ -1,0 +1,7 @@
+name: EnchantNotifier
+main: com.cyprias.enchantnotifier.EnchantNotifier
+version: 1.0.0
+
+permissions:
+    enchantnotifier.notify:
+        description: Notifies a player when someone enchants an item.
