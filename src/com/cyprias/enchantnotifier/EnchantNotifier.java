@@ -36,7 +36,7 @@ public class EnchantNotifier extends JavaPlugin {
 
 			if (mPlugin != null && config.boolUseMChatName == true) {
 				String world = player.getLocation().getWorld().toString();
-				senderName = mPlugin.getAPI().ParsePlayerName(sender.getName(), world);
+				senderName = mPlugin.getParser().parsePlayerName(sender.getName(), world);
 			}
 
 		}
